@@ -9,4 +9,4 @@
 Реализация средствами HTML5, CSS3, JS, HTML5 Audio API. Без использования сторонних библиотек.
 
 #### Скриншот готового плеера: 
-![image](https://user-images.githubusercontent.com/55458063/235780521-71196ef8-d66a-4599-89f6-420d9fe4be32.png)
+![image](https://github.com/polyaXD/audio-streaming-web-template/blob/main/resources/buttons/Screenshot_197.png)
