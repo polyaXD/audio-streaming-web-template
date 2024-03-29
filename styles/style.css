@@ -1,0 +1,135 @@
+:root {
+    --dark: #05386B;
+    --dark-main: #379683;
+    --medium-main: #5CDB95;
+    --light-main: #8EE4AF;
+    --light: #EDF5E1;
+}
+
+* {
+    font-family: "Exo 2";
+}
+
+body {
+    background-color: var(--light);
+    margin: 0;
+    width: 98vw;
+    text-align: center;
+}
+
+.decor {
+    height: 381px;
+    padding-top: 13px;
+    margin: 3px auto auto;
+    width: 284px;
+    horiz-align: center;
+    border-left: var(--dark) 4px solid;
+    border-top: var(--dark) 4px solid;
+    border-right: var(--dark) 4px solid;
+    border-radius: 18px;
+}
+
+#audio-outer-container {
+    border-radius: 20px;
+    margin: 10% auto 10px;
+    padding-top: 1px;
+    text-align: center;
+    horiz-align: center;
+    width: 300px;
+    height: 400px;
+    background-color: var(--light-main);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+    position:relative;
+}
+
+#logo-container {
+    margin: 0 auto;
+    width: 155px;
+    height: 155px;
+}
+
+#logo {
+    border-radius: 15px;
+    width: 150px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+}
+
+#logo:hover {
+    border-radius: 15px;
+    width: 155px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+}
+
+span {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    color: var(--dark);
+}
+
+#name {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.audio-track {
+    border-radius: 5px;
+    width: 180px;
+    height: 5px;
+    background-color: #dddddd;
+    margin: 15px auto
+}
+
+.time {
+    width: 0;
+    border-radius: 5px;
+    height: 5px;
+    background-color: var(--dark)
+}
+
+.control-button {
+    display: inline-block;
+    border-width: 0;
+    background-color: var(--light-main);
+}
+
+#button-container {
+    height: 50px;
+}
+
+.button-img {
+    width: 40px;
+    -webkit-filter: drop-shadow(3px 4px 4px var(--dark-main));
+    filter: drop-shadow(0px 4px 4px var(--dark-main));
+    vertical-align: center;
+}
+
+.button-img:hover {
+    -webkit-filter: drop-shadow(3px 5px 5px var(--dark-main));
+    filter: drop-shadow(3px 5px 5px var(--dark-main));
+    width: 43px;
+}
+
+#waves {
+    margin-left: 7px;
+    position: absolute;
+    height: 80px;
+    width: 270px;
+    bottom: 0;
+    padding: 0;
+}
+
+.wave {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    vertical-align: bottom;
+    display: inline-block;
+    background-color: var(--dark);
+    width: 23px;
+    position: absolute;
+    bottom: 0;
+}
+
+#signa {
+    color: #8EE4AF;
+}
